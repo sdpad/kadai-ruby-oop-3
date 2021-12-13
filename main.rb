@@ -7,6 +7,6 @@ sato = Human.new(name: "佐藤 花子", age: 20, hobby: "映画")
 humans = [tanaka,suzuki,sato]
 
 humans.each do |human|
-  puts human.say
-  puts human.think
+  human.say
+  human.think
 end
